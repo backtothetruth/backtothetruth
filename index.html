@@ -15,4 +15,60 @@
 <div class="principle-end"><p>Repent.<br>Return.<br><em>Follow.</em></p></div></div></section>
 <section id="chemin" class="section journey"><p class="eyebrow">03 / YOUR RESPONSE</p><h2>You have heard the call.<br><em>How will you respond?</em></h2><p class="journey-intro">Do not leave this as another page you read and forget. Open the Scriptures. Come before God honestly. Take the step you know you need to take.</p><div class="steps"><article><span>01 / EXAMINE</span><h3>Open the Word</h3><p>Read Jeremiah 7:1–11 and Luke 6:46–49. Where have you relied on religious words while resisting what God asks of you?</p></article><article><span>02 / REPENT</span><h3>Turn to God</h3><p>Confess your sins to God. Ask for His mercy. Turn away from what His Word exposes, and put your trust in Jesus Christ.</p></article><article><span>03 / OBEY</span><h3>Act on what you hear</h3><p>Read Acts 2:37–42. Consider the response it describes. If you need to discuss repentance, baptism, or following Jesus, write to us.</p></article></div><a class="button" href="mailto:contact@backtothetruth.com?subject=I%20want%20to%20return%20to%20the%20truth">I want to take that step <span>↗</span></a></section>
 <section class="section resources"><p class="eyebrow">FURTHER READING</p><a href="https://theword.fr" target="_blank" rel="noopener"><div><span>READ THE WORD</span><h3>The Word</h3><p>Read and study Scripture.</p></div><span aria-hidden="true">↗</span></a></section>
-<section class="section final-call"><p class="eyebrow">DO NOT HARDEN YOUR HEART.</p><h2>Return to the truth.<br><em>Respond today.</em></h2><a href="mailto:contact@backtothetruth.com">contact@backtothetruth.com ↗</a></section></main><footer><a class="brand" href="#">BACK TO THE TRUTH</a><p>Back to Jesus. Back to His Word.</p><span>© 2026 BACK TO THE TRUTH</span></footer></body></html>
+<section class="section final-call"><p class="eyebrow">DO NOT HARDEN YOUR HEART.</p><h2>Return to the truth.<br><em>Respond today.</em></h2><a href="mailto:contact@backtothetruth.com">contact@backtothetruth.com ↗</a></section></main>
+<footer>
+  <div class="footer-content">
+    <a class="brand" href="#">BACK TO THE TRUTH</a>
+    <p>Back to Jesus. Back to His Word.</p>
+    <button class="privacy-link" type="button" data-open-privacy>Privacy Policy</button>
+    <span>© <span id="copyright-year">2026</span> BACK TO THE TRUTH</span>
+  </div>
+  <div class="visitor-counter" aria-label="Visitor count">
+    <a href="https://hits.sh/www.backtothetruth.com/" target="_blank" rel="noopener">
+      <img alt="Visitor count" src="https://hits.sh/www.backtothetruth.com.svg?label=&style=flat&color=dddddd&labelColor=f5f5f5">
+    </a>
+  </div>
+</footer>
+
+<dialog class="privacy-dialog" id="privacy-dialog" aria-labelledby="privacy-title">
+  <div class="privacy-dialog__content">
+    <button class="privacy-dialog__close" type="button" data-close-privacy aria-label="Close the Privacy Policy">×</button>
+    <h2 id="privacy-title">Privacy Policy</h2>
+    <p>This website does not place advertising cookies and does not use Google Analytics.</p>
+    <p>A simple visitor counter provided by Hits.sh is displayed at the bottom of the page to estimate the number of visits. It is used only to understand the site’s general audience, with no advertising purpose.</p>
+    <p>No registration is required, and no data is used to track visitors for commercial purposes.</p>
+    <p>If you have any questions, you can write to <a href="mailto:contact@backtothetruth.com">contact@backtothetruth.com</a>.</p>
+  </div>
+</dialog>
+
+<script>
+  document.getElementById('copyright-year').textContent = new Date().getFullYear();
+
+  var privacyDialog = document.getElementById('privacy-dialog');
+  var privacyOpen = document.querySelector('[data-open-privacy]');
+  var privacyClose = document.querySelector('[data-close-privacy]');
+
+  if (privacyDialog && privacyOpen && privacyClose) {
+    function closePrivacyDialog() {
+      if (typeof privacyDialog.close === 'function') {
+        privacyDialog.close();
+      } else {
+        privacyDialog.removeAttribute('open');
+      }
+    }
+
+    privacyOpen.addEventListener('click', function () {
+      if (typeof privacyDialog.showModal === 'function') {
+        privacyDialog.showModal();
+      } else {
+        privacyDialog.setAttribute('open', '');
+      }
+    });
+
+    privacyClose.addEventListener('click', closePrivacyDialog);
+    privacyDialog.addEventListener('click', function (event) {
+      if (event.target === privacyDialog) closePrivacyDialog();
+    });
+  }
+</script>
+</body></html>
