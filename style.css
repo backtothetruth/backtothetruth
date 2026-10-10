@@ -14,3 +14,18 @@ footer{padding:35px 4%;border-top:1px solid var(--line)}.translation-note{font-s
 .cinema .cinema-logo{position:absolute;top:5%;left:3.4%;width:65%;height:auto;max-width:1200px;object-fit:contain}.cinema-line{top:28%;left:5%}.button{gap:12px}@media(max-width:700px){.cinema .cinema-logo{top:7%;left:3%;width:78%}.cinema-line{top:36%;font-size:3.3vw}}
 
 .cinema .cinema-logo{top:3%;left:3.5%;width:38%;max-width:740px;height:auto}.time-machine{font-family:Georgia,serif;font-size:23px;color:var(--paper);margin:0 0 20px}@media(max-width:700px){.cinema{display:flex;flex-direction:column}.cinema .cinema-logo{position:static;order:-1;width:86%;height:auto;margin:24px auto 20px}.time-machine{font-size:21px}}
+
+/* Original return-of-Christ hero */
+.return-visual{position:relative;max-width:1920px;margin:auto;background:#071423}
+.return-landscape{width:100%;height:auto}
+.return-copy{position:absolute;top:9%;left:5.7%;width:52%;text-shadow:0 2px 18px #06132280}
+.return-credit{font-family:Georgia,'Times New Roman',serif;font-size:clamp(12px,1.25vw,21px);letter-spacing:.24em;line-height:1.4;margin:0 0 15px}
+.return-title{font-family:Georgia,'Times New Roman',serif;font-weight:400;font-style:normal;font-size:clamp(48px,6.5vw,112px);line-height:1.02;letter-spacing:-.045em;margin:0 0 28px}
+.return-copy h1{font-family:Arial,Helvetica,sans-serif;font-size:clamp(28px,3.2vw,54px);font-weight:400;letter-spacing:-.025em;line-height:1.2}
+.return-copy h1 em{display:inline-block;font-family:Georgia,'Times New Roman',serif;font-size:1.17em;margin-top:10px}
+.return-verse{margin-top:28px;max-width:620px}
+.return-verse blockquote{font-family:Georgia,'Times New Roman',serif;font-size:clamp(14px,1.25vw,21px);line-height:1.6;margin:0}
+.return-verse figcaption{font-size:10px;letter-spacing:.11em;text-transform:uppercase;margin-top:7px;color:#d6dfe9}
+.return-verse a{text-decoration:none}.return-verse a:hover{text-decoration:underline}
+.return-invitation{font-family:Georgia,'Times New Roman',serif;font-size:clamp(28px,3vw,43px);line-height:1.2}
+@media(max-width:900px){.return-visual{display:flex;flex-direction:column}.return-copy{position:static;order:-1;width:auto;padding:40px 26px 32px;background:linear-gradient(155deg,#0d2339,#071423)}.return-credit{font-size:12px;letter-spacing:.2em}.return-title{font-size:clamp(40px,8.5vw,76px);margin-bottom:24px}.return-copy h1{font-size:clamp(26px,5vw,40px)}.return-verse{margin-top:23px}.return-verse blockquote{font-size:16px}.return-landscape{width:100%;height:auto}.hero-message{padding-top:32px;padding-bottom:32px}}
